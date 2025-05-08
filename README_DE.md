@@ -11,6 +11,14 @@
    Hinweis: Der Pfad unterscheidet sich auf Windows und Mac. Details findest du hier:
    https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Custom-Threads-in-Fusion-360.html
 
+   Man kann diese Webseite (DE) zur Berechnung verwenden:
+   - https://github.com/apos/fusion_360_threadtool_xml_editor
+ 
+   Dank auch an Paul Gerlach
+   - https://stargazerslounge.com/topic/346425-astro-threads-for-fusion-360/
+  
+   Danke an 
+
 Dieses Tool ermöglicht die komfortable Bearbeitung von Gewinde-XML-Dateien für Fusion 360 direkt in einem Jupyter Notebook.
 
 ![alt text](data/image_de.png)

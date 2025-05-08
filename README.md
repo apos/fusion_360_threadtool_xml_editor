@@ -9,6 +9,12 @@
 
 This tool allows convenient editing of Fusion 360 thread XML files directly inside a Jupyter Notebook.
 
+   You can use a website like this (DE) to get the numbers:
+   - https://github.com/apos/fusion_360_threadtool_xml_editor
+ 
+  Thanks also to Paul Gerlach
+   - https://stargazerslounge.com/topic/346425-astro-threads-for-fusion-360/
+
 ![alt text](data/image.png)
 
 ## Features
