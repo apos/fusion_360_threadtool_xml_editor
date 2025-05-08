@@ -9,6 +9,8 @@
 
 This tool allows convenient editing of Fusion 360 thread XML files directly inside a Jupyter Notebook.
 
+![alt text](data/image.png)
+
 ## Features
 
 ✅ Export XML files from Fusion 360  

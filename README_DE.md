@@ -13,6 +13,8 @@
 
 Dieses Tool ermöglicht die komfortable Bearbeitung von Gewinde-XML-Dateien für Fusion 360 direkt in einem Jupyter Notebook.
 
+![alt text](image.png)
+
 ## Funktionen
 
 ✅ XML-Dateien aus Fusion 360 exportieren  
