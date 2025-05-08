@@ -13,7 +13,7 @@
 
 Dieses Tool ermöglicht die komfortable Bearbeitung von Gewinde-XML-Dateien für Fusion 360 direkt in einem Jupyter Notebook.
 
-![alt text](data/image.png)
+![alt text](data/image_de.png)
 
 ## Funktionen
 
