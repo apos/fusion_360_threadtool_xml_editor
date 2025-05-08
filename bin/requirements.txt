@@ -1,0 +1,7 @@
+ipywidgets
+lxml
+suprocess
+datetime
+threading
+time
+xml.dom.minidom
