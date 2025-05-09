@@ -154,32 +154,5 @@
         <MinorDia>55.058</MinorDia>
       </Thread>
     </Designation>
-    <Designation>
-      <ThreadDesignation>M56x0.75_neu5</ThreadDesignation>
-      <CTD>M56x0.75_neu5</CTD>
-      <Pitch>0.75</Pitch>
-      <Thread>
-        <Gender>external</Gender>
-        <Class>6g</Class>
-        <MajorDia>55.838</MajorDia>
-        <PitchDia>55.373</PitchDia>
-        <MinorDia>54.911</MinorDia>
-      </Thread>
-      <Thread>
-        <Gender>internal</Gender>
-        <Class>6H</Class>
-        <MajorDia>56.0</MajorDia>
-        <PitchDia>55.513</PitchDia>
-        <MinorDia>55.188</MinorDia>
-        <TapDrill>55.188</TapDrill>
-      </Thread>
-      <Thread>
-        <Gender>external</Gender>
-        <Class>4g6g</Class>
-        <MajorDia>55.978</MajorDia>
-        <PitchDia>55.491</PitchDia>
-        <MinorDia>55.058</MinorDia>
-      </Thread>
-    </Designation>
   </ThreadSize>
 </ThreadType>
