@@ -1,5 +1,4 @@
 ipywidgets
 lxml
-shutil
 pathlib
 configparser

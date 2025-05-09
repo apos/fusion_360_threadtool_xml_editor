@@ -60,19 +60,25 @@ This tool allows convenient editing of Fusion 360 thread XML files directly insi
 Example installation:
 
 ```bash
-pip install -r requirements.txt
+pip install -r bin/requirements.txt
 ```
 
 ## Directory Structure
 
 ```
-data/
- └─ AstroISOmetric.xml
-bin/
- └─ sync_xml.sh
- └─ create_venv.sh
-notebooks/
- └─ fusion360_thread_editor.ipynb
+├── bin
+│   ├── create_venv.sh
+│   ├── requirements.txt
+│   └── sync_xml.sh
+├── config_fusion_threaddata_path.ini
+├── data
+│   ├── AstroISOmetric.xml
+│   ├── AstroISOmetric.xml.bak
+│   ├── image_de.png
+│   └── image.png
+├── fusion360_thread_editor.ipynb
+├── README_DE.md
+└── README.md
 ```
 
 ---
