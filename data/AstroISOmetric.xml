@@ -155,8 +155,8 @@
       </Thread>
     </Designation>
     <Designation>
-      <ThreadDesignation>M56x0.75_neu</ThreadDesignation>
-      <CTD>M56x0.75_neu</CTD>
+      <ThreadDesignation>M56x0.75_neu5</ThreadDesignation>
+      <CTD>M56x0.75_neu5</CTD>
       <Pitch>0.75</Pitch>
       <Thread>
         <Gender>external</Gender>
@@ -182,8 +182,8 @@
       </Thread>
     </Designation>
     <Designation>
-      <ThreadDesignation>M56x0.75_neu5</ThreadDesignation>
-      <CTD>M56x0.75_neu5</CTD>
+      <ThreadDesignation>M56x0.75_neu6</ThreadDesignation>
+      <CTD>M56x0.75_neu6</CTD>
       <Pitch>0.75</Pitch>
       <Thread>
         <Gender>external</Gender>
