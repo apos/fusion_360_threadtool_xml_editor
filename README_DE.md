@@ -1,15 +1,14 @@
 # Fusion 360 Gewindetool – XML-Editor mit Jupyter Notebook
 
 ⚠️ **Wichtige Hinweise:**  
-1. Fusion 360 muss vor der Benutzung dieses Tools geschlossen sein.  
-2. Der Pfad `FUSION_PATH` in `sync_xml.sh` muss korrekt auf den Fusion 360 XML-Ordner zeigen.  
-3. Setze die Variable `FUSION_PATH` in `sync_xml.sh` auf den richtigen XML-Pfad:
-   
+1. Fusion kann an sein, man muss nur das Thread-Tool neu starten.  
+2. Der Pfad muss in der config-Datei gesetzt werden.
+
    Beispiel (Mac):
    FUSION_PATH="/Users/yourname/Library/Application Support/Autodesk/webdeploy/production/.../ThreadData/Metric.xml"
 
    Hinweis: Der Pfad unterscheidet sich auf Windows und Mac. Details findest du hier:
-   https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Custom-Threads-in-Fusion-360.html
+   - https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Custom-Threads-in-Fusion-360.html
 
    Man kann diese Webseite (DE) zur Berechnung verwenden:
    - https://github.com/apos/fusion_360_threadtool_xml_editor

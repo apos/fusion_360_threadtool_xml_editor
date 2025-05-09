@@ -1,13 +1,13 @@
 # Fusion 360 Thread Tool – XML Editor with Jupyter Notebook
 
 ⚠️ **Important Notes:**  
-1. Fusion 360 must be closed before using this tool.  
-2. The `FUSION_PATH` must be correctly set in the `sync_xml.sh` script.  
-   - This path is different on Mac and Windows.  
-   - Please refer to this Autodesk article for details:  
-     https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Custom-Threads-in-Fusion-360.html
+1. Fusion 360 can remain open, you just need to restart the Thread Tool inside it.  
+2. The path must be set in the `config_fusion_threaddata_path.ini` file.
 
 This tool allows convenient editing of Fusion 360 thread XML files directly inside a Jupyter Notebook.
+
+   Please refer to this Autodesk article for details:  
+     https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Custom-Threads-in-Fusion-360.html
 
    You can use a website like this (DE) to get the numbers:
    - https://github.com/apos/fusion_360_threadtool_xml_editor
