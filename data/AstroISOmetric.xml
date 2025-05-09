@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <ThreadType>
   <Name>AstroISOmetric</Name>
   <CustomName>AstroISOmetric</CustomName>
@@ -95,66 +96,6 @@
     </Designation>
   </ThreadSize>
   <ThreadSize>
-    <Size>0.0</Size>
-    <Designation>
-      <ThreadDesignation />
-      <CTD />
-      <Pitch>0.0</Pitch>
-      <Thread>
-        <Gender>external</Gender>
-        <Class>6g</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
-      </Thread>
-      <Thread>
-        <Gender>internal</Gender>
-        <Class>6H</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
-        <TapDrill>0.0</TapDrill>
-      </Thread>
-      <Thread>
-        <Gender>external</Gender>
-        <Class>4g6g</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
-      </Thread>
-    </Designation>
-  </ThreadSize>
-  <ThreadSize>
-    <Size>0.0</Size>
-    <Designation>
-      <ThreadDesignation />
-      <CTD />
-      <Pitch>0.0</Pitch>
-      <Thread>
-        <Gender>external</Gender>
-        <Class>6g</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
-      </Thread>
-      <Thread>
-        <Gender>internal</Gender>
-        <Class>6H</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
-        <TapDrill>0.0</TapDrill>
-      </Thread>
-      <Thread>
-        <Gender>external</Gender>
-        <Class>4g6g</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
-      </Thread>
-    </Designation>
-  </ThreadSize>
-  <ThreadSize>
     <Size>25.4</Size>
     <Designation>
       <ThreadDesignation>C-mount</ThreadDesignation>
@@ -213,64 +154,58 @@
         <MinorDia>55.058</MinorDia>
       </Thread>
     </Designation>
-  </ThreadSize>
-  <ThreadSize>
-    <Size>0.0</Size>
     <Designation>
-      <ThreadDesignation />
-      <CTD />
-      <Pitch>0.0</Pitch>
+      <ThreadDesignation>M56x0.75_neu</ThreadDesignation>
+      <CTD>M56x0.75_neu</CTD>
+      <Pitch>0.75</Pitch>
       <Thread>
         <Gender>external</Gender>
         <Class>6g</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
+        <MajorDia>55.838</MajorDia>
+        <PitchDia>55.373</PitchDia>
+        <MinorDia>54.911</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>6H</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
-        <TapDrill>0.0</TapDrill>
+        <MajorDia>56.0</MajorDia>
+        <PitchDia>55.513</PitchDia>
+        <MinorDia>55.188</MinorDia>
+        <TapDrill>55.188</TapDrill>
       </Thread>
       <Thread>
         <Gender>external</Gender>
         <Class>4g6g</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
+        <MajorDia>55.978</MajorDia>
+        <PitchDia>55.491</PitchDia>
+        <MinorDia>55.058</MinorDia>
       </Thread>
     </Designation>
-  </ThreadSize>
-  <ThreadSize>
-    <Size>0.0</Size>
     <Designation>
-      <ThreadDesignation />
-      <CTD />
-      <Pitch>0.0</Pitch>
+      <ThreadDesignation>M56x0.75_neu5</ThreadDesignation>
+      <CTD>M56x0.75_neu5</CTD>
+      <Pitch>0.75</Pitch>
       <Thread>
         <Gender>external</Gender>
         <Class>6g</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
+        <MajorDia>55.838</MajorDia>
+        <PitchDia>55.373</PitchDia>
+        <MinorDia>54.911</MinorDia>
       </Thread>
       <Thread>
         <Gender>internal</Gender>
         <Class>6H</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
-        <TapDrill>0.0</TapDrill>
+        <MajorDia>56.0</MajorDia>
+        <PitchDia>55.513</PitchDia>
+        <MinorDia>55.188</MinorDia>
+        <TapDrill>55.188</TapDrill>
       </Thread>
       <Thread>
         <Gender>external</Gender>
         <Class>4g6g</Class>
-        <MajorDia>0.0</MajorDia>
-        <PitchDia>0.0</PitchDia>
-        <MinorDia>0.0</MinorDia>
+        <MajorDia>55.978</MajorDia>
+        <PitchDia>55.491</PitchDia>
+        <MinorDia>55.058</MinorDia>
       </Thread>
     </Designation>
   </ThreadSize>
