@@ -6,36 +6,6 @@
   <Angle>60</Angle>
   <SortOrder>3</SortOrder>
   <ThreadSize>
-    <Size>42</Size>
-    <Designation>
-      <ThreadDesignation>M42x0.75</ThreadDesignation>
-      <CTD>M42x0.75</CTD>
-      <Pitch>0.75</Pitch>
-      <Thread>
-        <Gender>external</Gender>
-        <Class>6g</Class>
-        <MajorDia>41.908</MajorDia>
-        <PitchDia>41.4409</PitchDia>
-        <MinorDia>41.0475</MinorDia>
-      </Thread>
-      <Thread>
-        <Gender>internal</Gender>
-        <Class>6H</Class>
-        <MajorDia>42.1201</MajorDia>
-        <PitchDia>41.5789</PitchDia>
-        <MinorDia>41.2831</MinorDia>
-        <TapDrill>41.25</TapDrill>
-      </Thread>
-      <Thread>
-        <Gender>external</Gender>
-        <Class>4g6g</Class>
-        <MajorDia>41.908</MajorDia>
-        <PitchDia>41.4594</PitchDia>
-        <MinorDia>41.066</MinorDia>
-      </Thread>
-    </Designation>
-  </ThreadSize>
-  <ThreadSize>
     <Size>48</Size>
     <Designation>
       <ThreadDesignation>2 inch filter thread</ThreadDesignation>
@@ -92,6 +62,33 @@
         <MajorDia>28.427</MajorDia>
         <PitchDia>28.1267</PitchDia>
         <MinorDia>27.8645</MinorDia>
+      </Thread>
+    </Designation>
+    <Designation>
+      <ThreadDesignation>M28.5x0.6</ThreadDesignation>
+      <CTD>M28.5x0.6</CTD>
+      <Pitch>0.6</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>28.474</MajorDia>
+        <PitchDia>28.084</PitchDia>
+        <MinorDia>27.738</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>28.5</MajorDia>
+        <PitchDia>28.11</PitchDia>
+        <MinorDia>27.851</MinorDia>
+        <TapDrill>27.9</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>0.0</MajorDia>
+        <PitchDia>0.0</PitchDia>
+        <MinorDia>0.0</MinorDia>
       </Thread>
     </Designation>
   </ThreadSize>
@@ -182,6 +179,63 @@
         <MajorDia>83.31</MajorDia>
         <PitchDia>82.65</PitchDia>
         <MinorDia>81.85</MinorDia>
+      </Thread>
+    </Designation>
+    <Designation>
+      <ThreadDesignation>3,28 inch SCT_neu</ThreadDesignation>
+      <CTD>3,28 inch SCT_neu</CTD>
+      <Pitch>1.5875</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>83.31</MajorDia>
+        <PitchDia>82.55</PitchDia>
+        <MinorDia>81.79</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>83.44</MajorDia>
+        <PitchDia>82.68</PitchDia>
+        <MinorDia>81.92</MinorDia>
+        <TapDrill>82.0</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>83.31</MajorDia>
+        <PitchDia>82.65</PitchDia>
+        <MinorDia>81.85</MinorDia>
+      </Thread>
+    </Designation>
+  </ThreadSize>
+  <ThreadSize>
+    <Size>42.0</Size>
+    <Designation>
+      <ThreadDesignation>M42x0.75</ThreadDesignation>
+      <CTD>M42x0.75</CTD>
+      <Pitch>1.0</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>41.968</MajorDia>
+        <PitchDia>41.48</PitchDia>
+        <MinorDia>41.153</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>42.0</MajorDia>
+        <PitchDia>41.513</PitchDia>
+        <MinorDia>41.08</MinorDia>
+        <TapDrill>41.25</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>0.0</MajorDia>
+        <PitchDia>0.0</PitchDia>
+        <MinorDia>0.0</MinorDia>
       </Thread>
     </Designation>
   </ThreadSize>
