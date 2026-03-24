@@ -1,8 +1,8 @@
 # Fusion 360 Thread Tool – XML Editor with Jupyter Notebook
 
-⚠️ **Important Notes:**  
-1. Fusion 360 can remain open, you just need to restart the Thread Tool inside it.  
-2. The path must be set in the `config_fusion_threaddata_path.ini` file.
+⚠️ **Important Notes:**
+1. Fusion 360 can remain open, you just need to restart the Thread Tool inside it.
+2. The path / UID is configured automatically – see [After a Fusion Reinstall](#after-a-fusion-reinstall) below.
 
 This tool allows convenient editing of Fusion 360 thread XML files directly inside a Jupyter Notebook.
 
@@ -16,6 +16,26 @@ This tool allows convenient editing of Fusion 360 thread XML files directly insi
    - https://stargazerslounge.com/topic/346425-astro-threads-for-fusion-360/
 
 ![alt text](data/image.png)
+
+## After a Fusion Reinstall
+
+Fusion 360 generates a new unique installation ID (UID) with every update or reinstall.
+The script `bin/update_fusion_threaddata.sh` automates all necessary steps:
+
+1. **Auto-detects** the current Fusion 360 UID inside `~/Library/Application Support/Autodesk/webdeploy/production/`
+2. **Updates** `config_fusion_threaddata_path.ini` with the new UID
+3. **Copies** all custom thread XML files from `data/` into Fusion's `ThreadData` directory
+
+```bash
+bash bin/update_fusion_threaddata.sh
+```
+
+Then restart Fusion 360 (or just the Thread Tool inside it) to reload the thread data.
+
+> **Tip:** Adding new custom thread types is easy – just place the `.xml` file in the `data/` folder
+> and re-run the script. It will be deployed automatically on the next run.
+
+---
 
 ## Features
 
@@ -60,6 +80,10 @@ This tool allows convenient editing of Fusion 360 thread XML files directly insi
 Example installation:
 
 ```bash
+# Create/rebuild the virtual environment (once):
+bash bin/create_venv.sh
+
+# Or manually:
 pip install -r bin/requirements.txt
 ```
 
@@ -67,12 +91,13 @@ pip install -r bin/requirements.txt
 
 ```
 ├── bin
-│   ├── create_venv.sh
+│   ├── create_venv.sh              # Create/rebuild Python virtual environment
 │   ├── requirements.txt
+│   ├── update_fusion_threaddata.sh # ← Run after every Fusion reinstall!
 │   └── sync_xml.sh
-├── config_fusion_threaddata_path.ini
+├── config_fusion_threaddata_path.ini  # Auto-updated UID + path template
 ├── data
-│   ├── AstroISOmetric.xml
+│   ├── AstroISOmetric.xml          # Custom thread definition (source of truth)
 │   ├── AstroISOmetric.xml.bak
 │   ├── image_de.png
 │   └── image.png

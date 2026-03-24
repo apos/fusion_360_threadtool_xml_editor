@@ -1,13 +1,10 @@
 # Fusion 360 Gewindetool – XML-Editor mit Jupyter Notebook
 
-⚠️ **Wichtige Hinweise:**  
-1. Fusion kann an sein, man muss nur das Thread-Tool neu starten.  
-2. Der Pfad muss in der config-Datei gesetzt werden.
+⚠️ **Wichtige Hinweise:**
+1. Fusion kann an sein, man muss nur das Thread-Tool neu starten.
+2. Pfad und UID werden automatisch ermittelt – siehe [Nach einer Fusion-Neuinstallation](#nach-einer-fusion-neuinstallation) weiter unten.
 
-   Beispiel (Mac):
-   FUSION_PATH="/Users/yourname/Library/Application Support/Autodesk/webdeploy/production/.../ThreadData/Metric.xml"
-
-   Hinweis: Der Pfad unterscheidet sich auf Windows und Mac. Details findest du hier:
+   Details zu Custom Threads in Fusion 360:
    - https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Custom-Threads-in-Fusion-360.html
 
    Man kann diese Webseite (DE) zur Berechnung verwenden:
@@ -21,6 +18,26 @@
 Dieses Tool ermöglicht die komfortable Bearbeitung von Gewinde-XML-Dateien für Fusion 360 direkt in einem Jupyter Notebook.
 
 ![alt text](data/image_de.png)
+
+## Nach einer Fusion-Neuinstallation
+
+Fusion 360 vergibt bei jedem Update oder jeder Neuinstallation eine neue eindeutige Installations-ID (UID).
+Das Skript `bin/update_fusion_threaddata.sh` automatisiert alle nötigen Schritte:
+
+1. **Erkennt automatisch** die aktuelle Fusion-360-UID in `~/Library/Application Support/Autodesk/webdeploy/production/`
+2. **Aktualisiert** die `config_fusion_threaddata_path.ini` mit der neuen UID
+3. **Kopiert** alle Custom-Thread-XML-Dateien aus `data/` in das `ThreadData`-Verzeichnis von Fusion
+
+```bash
+bash bin/update_fusion_threaddata.sh
+```
+
+Danach Fusion 360 (oder nur das Thread-Tool darin) neu starten, damit die Gewinde-Daten neu geladen werden.
+
+> **Tipp:** Neue Custom-Gewindetypen lassen sich ganz einfach hinzufügen – einfach die `.xml`-Datei
+> in den `data/`-Ordner legen und das Skript erneut ausführen. Sie wird beim nächsten Lauf automatisch deployt.
+
+---
 
 ## Funktionen
 
@@ -65,6 +82,10 @@ Dieses Tool ermöglicht die komfortable Bearbeitung von Gewinde-XML-Dateien für
 Installation (Beispiel):
 
 ```bash
+# Virtuelle Umgebung erstellen/neu aufbauen (einmalig):
+bash bin/create_venv.sh
+
+# Oder manuell:
 pip install -r bin/requirements.txt
 ```
 
@@ -72,12 +93,13 @@ pip install -r bin/requirements.txt
 
 ```
 ├── bin
-│   ├── create_venv.sh
+│   ├── create_venv.sh              # Python-Virtualenv erstellen/neu aufbauen
 │   ├── requirements.txt
+│   ├── update_fusion_threaddata.sh # ← Nach jeder Fusion-Neuinstallation ausführen!
 │   └── sync_xml.sh
-├── config_fusion_threaddata_path.ini
+├── config_fusion_threaddata_path.ini  # Automatisch aktualisierte UID + Pfad-Template
 ├── data
-│   ├── AstroISOmetric.xml
+│   ├── AstroISOmetric.xml          # Custom-Gewinde-Definition (Quelle der Wahrheit)
 │   ├── AstroISOmetric.xml.bak
 │   ├── image_de.png
 │   └── image.png
