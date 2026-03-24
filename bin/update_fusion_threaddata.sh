@@ -73,23 +73,54 @@ if [[ ! -d "$THREADDATA_DIR" ]]; then
 fi
 
 # ---------------------------------------------------------------------------
-# 2. Config-Datei aktualisieren
+# 2. Vorab-Prüfung: Ist bereits alles in Ordnung?
 # ---------------------------------------------------------------------------
-info "Aktualisiere FusionUID in: $CONFIG_FILE"
+OLD_UID=$(grep -E '^FusionUID\s*=' "$CONFIG_FILE" | sed 's/.*=\s*//' | tr -d '[:space:]') || OLD_UID=""
 
-# Lese alte UID zur Anzeige
-OLD_UID=$(grep -E '^FusionUID\s*=' "$CONFIG_FILE" | sed 's/.*=\s*//' | tr -d '[:space:]') || OLD_UID="(unbekannt)"
+NEEDS_UPDATE=false
 
-if [[ "$OLD_UID" == "$LATEST_UID" ]]; then
-    info "FusionUID ist bereits aktuell – keine Änderung nötig."
-else
-    # Ersetze die FusionUID-Zeile (sed -i '' = macOS in-place ohne Backup-Extension)
-    sed -i '' "s|^FusionUID\s*=.*|FusionUID = $LATEST_UID|" "$CONFIG_FILE"
-    success "FusionUID aktualisiert:  $OLD_UID  →  $LATEST_UID"
+# UID stimmt nicht?
+if [[ "$OLD_UID" != "$LATEST_UID" ]]; then
+    NEEDS_UPDATE=true
+fi
+
+# Fehlt eine XML-Datei oder weicht sie ab?
+if ! $NEEDS_UPDATE; then
+    for xml_file in "$DATA_DIR"/*.xml; do
+        [[ -f "$xml_file" ]] || continue
+        basename_xml="$(basename "$xml_file")"
+        [[ "$basename_xml" == *.bak ]] && continue
+        dest="$THREADDATA_DIR/$basename_xml"
+        if [[ ! -f "$dest" ]] || ! cmp -s "$xml_file" "$dest"; then
+            NEEDS_UPDATE=true
+            break
+        fi
+    done
+fi
+
+if ! $NEEDS_UPDATE; then
+    echo ""
+    echo "══════════════════════════════════════════════════════"
+    success "Installation ist bereits in Ordnung – nichts zu tun."
+    echo "  UID : $LATEST_UID"
+    echo "══════════════════════════════════════════════════════"
+    echo ""
+    exit 0
 fi
 
 # ---------------------------------------------------------------------------
-# 3. Custom-Thread-XMLs kopieren
+# 3. Config-Datei aktualisieren (nur wenn nötig)
+# ---------------------------------------------------------------------------
+if [[ "$OLD_UID" != "$LATEST_UID" ]]; then
+    info "Aktualisiere FusionUID in: $CONFIG_FILE"
+    sed -i '' "s|^FusionUID\s*=.*|FusionUID = $LATEST_UID|" "$CONFIG_FILE"
+    success "FusionUID aktualisiert:  $OLD_UID  →  $LATEST_UID"
+else
+    info "FusionUID bereits aktuell: $LATEST_UID"
+fi
+
+# ---------------------------------------------------------------------------
+# 4. Custom-Thread-XMLs kopieren (nur fehlende / abweichende)
 # ---------------------------------------------------------------------------
 info "Kopiere Custom-Thread-XMLs aus data/ nach:"
 info "  $THREADDATA_DIR"
@@ -100,34 +131,21 @@ SKIPPED=0
 for xml_file in "$DATA_DIR"/*.xml; do
     [[ -f "$xml_file" ]] || continue
     basename_xml="$(basename "$xml_file")"
-
-    # .bak-Dateien überspringen
     [[ "$basename_xml" == *.bak ]] && continue
 
     dest="$THREADDATA_DIR/$basename_xml"
 
-    if [[ -f "$dest" ]]; then
-        # Prüfen ob identisch
-        if cmp -s "$xml_file" "$dest"; then
-            info "  Unverändert (übersprungen): $basename_xml"
-            ((SKIPPED++)) || true
-            continue
-        fi
-        warn "  Überschreibe vorhandene Datei: $basename_xml"
+    if [[ -f "$dest" ]] && cmp -s "$xml_file" "$dest"; then
+        info "  Unverändert (übersprungen): $basename_xml"
+        ((SKIPPED++)) || true
+        continue
     fi
 
+    [[ -f "$dest" ]] && warn "  Überschreibe vorhandene Datei: $basename_xml"
     cp "$xml_file" "$dest"
     success "  Kopiert: $basename_xml"
     ((COPIED++)) || true
 done
-
-if (( COPIED == 0 && SKIPPED > 0 )); then
-    success "Alle Custom-Threads sind bereits aktuell – nichts zu tun."
-elif (( COPIED == 0 )); then
-    warn "Keine XML-Dateien in $DATA_DIR gefunden."
-else
-    success "$COPIED Custom-Thread-XML(s) erfolgreich installiert."
-fi
 
 # ---------------------------------------------------------------------------
 # Zusammenfassung
