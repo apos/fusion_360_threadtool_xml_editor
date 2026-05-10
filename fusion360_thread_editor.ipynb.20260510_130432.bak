@@ -19,7 +19,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 3,
    "id": "39a9101f",
    "metadata": {},
    "outputs": [
@@ -45,7 +45,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "99d7bd28b8a646298673994e4dd49d93",
+       "model_id": "5e3da17065ff48caaab8999ef34801d0",
        "version_major": 2,
        "version_minor": 0
       },
@@ -59,7 +59,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "ba933ba700554737bc556bbf51e1769c",
+       "model_id": "0f8f2c514d2d4611b8fdda05f152f3e5",
        "version_major": 2,
        "version_minor": 0
       },
@@ -73,7 +73,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "5397a43f4ec24ab0b838f304d7a1be9f",
+       "model_id": "b8855698ad434b20a378507f3eca355a",
        "version_major": 2,
        "version_minor": 0
       },
@@ -87,7 +87,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "6c9fc69e28b94241a4ae7ec9b532e89a",
+       "model_id": "d240586baff14f9f94d57a44fb64fe15",
        "version_major": 2,
        "version_minor": 0
       },
@@ -101,7 +101,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "5b9df3bb6f8c4ec9a38871fc5b93c51d",
+       "model_id": "9a4351e4956a4a57b4be999206a09886",
        "version_major": 2,
        "version_minor": 0
       },
@@ -115,7 +115,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "f323ebc99975494fbcd523347baf8793",
+       "model_id": "27211c91d09b40fe8aab57e7088d8049",
        "version_major": 2,
        "version_minor": 0
       },
@@ -129,7 +129,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "6a3fa6c954144c9f97c88114dda5fa78",
+       "model_id": "b037aaf4c7b94c9bad7c1d03a9f08456",
        "version_major": 2,
        "version_minor": 0
       },
@@ -143,7 +143,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "0639c4e3e175468a99358751a3a5b536",
+       "model_id": "f497aeee42514dd2b144382f9e52255e",
        "version_major": 2,
        "version_minor": 0
       },
@@ -157,7 +157,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "16ded39a90484be89d357b647532d375",
+       "model_id": "c20835e0a9564eb493b84c56e666834f",
        "version_major": 2,
        "version_minor": 0
       },
@@ -171,7 +171,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "d7a42e0e3825404c967cc035bd89b38e",
+       "model_id": "ab80eb4fef9248aea034a099acaad1b4",
        "version_major": 2,
        "version_minor": 0
       },
@@ -185,7 +185,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "b1588845de5f42dcb31ba03e1a767bad",
+       "model_id": "3184bd0c6b0c4c57ab59d754986f3113",
        "version_major": 2,
        "version_minor": 0
       },
@@ -199,7 +199,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "7d17cb25bf784cdaaea2e496dab1b99f",
+       "model_id": "ac7e31e9eb5a40c09242211b4c9f21bc",
        "version_major": 2,
        "version_minor": 0
       },
@@ -213,7 +213,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "3fe575c9c26543468be2c03814b285f0",
+       "model_id": "1443b2a95eab423cacbafd429eb72f5b",
        "version_major": 2,
        "version_minor": 0
       },
@@ -227,7 +227,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "5dabc3348e184d6989b54962f3f52bcf",
+       "model_id": "cd97dfed69954b4482d4ccf57ba5603c",
        "version_major": 2,
        "version_minor": 0
       },
@@ -241,7 +241,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "25914f9c08b14ab6bd4e77d9e4579d6b",
+       "model_id": "f0ec6ccf9454406789783508c45371ae",
        "version_major": 2,
        "version_minor": 0
       },
@@ -255,7 +255,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "247503cf947b4735b3f896db047a302a",
+       "model_id": "dcbb26c344a643bcadf25ca34ee40cb1",
        "version_major": 2,
        "version_minor": 0
       },
@@ -269,7 +269,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "2d67370486b64ba780eea9ada56578b8",
+       "model_id": "df02634d4a854298b75578b0fbc57051",
        "version_major": 2,
        "version_minor": 0
       },
@@ -283,7 +283,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "038ff53fdb0c47c5a894fbc8945903d2",
+       "model_id": "fe961239122b44f1bc62584b218e208f",
        "version_major": 2,
        "version_minor": 0
       },
@@ -297,7 +297,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "e1647cba2ac3421da8169841e9b408be",
+       "model_id": "7db7cd62c48a470aacf849d1286e4014",
        "version_major": 2,
        "version_minor": 0
       },
@@ -311,7 +311,7 @@
     {
      "data": {
       "application/vnd.jupyter.widget-view+json": {
-       "model_id": "038ff53fdb0c47c5a894fbc8945903d2",
+       "model_id": "fe961239122b44f1bc62584b218e208f",
        "version_major": 2,
        "version_minor": 0
       },
@@ -907,7 +907,7 @@
     "    \n",
     "    \n",
     "def on_import_clicked(b):\n",
-    "    import_xml\n",
+    "    export_xml\n",
     "    clean_invalid_threads(xml_path)\n",
     "    last_import_time[0] = datetime.datetime.now()\n",
     "    update_labels()\n",
