@@ -181,6 +181,33 @@
         <MinorDia>49.71</MinorDia>
       </Thread>
     </Designation>
+    <Designation>
+      <ThreadDesignation>2"-24 UNS SC FDM</ThreadDesignation>
+      <CTD>2"-24 UNS SC FDM</CTD>
+      <Pitch>1.0583</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>50.30</MajorDia>
+        <PitchDia>49.61</PitchDia>
+        <MinorDia>49.15</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>51.43</MajorDia>
+        <PitchDia>50.74</PitchDia>
+        <MinorDia>50.28</MinorDia>
+        <TapDrill>50.3</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>50.30</MajorDia>
+        <PitchDia>49.71</PitchDia>
+        <MinorDia>49.21</MinorDia>
+      </Thread>
+    </Designation>
   </ThreadSize>
   <ThreadSize>
     <Size>82.8</Size>
@@ -209,6 +236,33 @@
         <MajorDia>83.31</MajorDia>
         <PitchDia>82.65</PitchDia>
         <MinorDia>81.85</MinorDia>
+      </Thread>
+    </Designation>
+    <Designation>
+      <ThreadDesignation>3,28 inch SCT FDM</ThreadDesignation>
+      <CTD>3,28 inch SCT FDM</CTD>
+      <Pitch>1.5875</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>83.01</MajorDia>
+        <PitchDia>82.25</PitchDia>
+        <MinorDia>81.49</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>83.74</MajorDia>
+        <PitchDia>82.98</PitchDia>
+        <MinorDia>82.22</MinorDia>
+        <TapDrill>82.3</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>83.01</MajorDia>
+        <PitchDia>82.35</PitchDia>
+        <MinorDia>81.55</MinorDia>
       </Thread>
     </Designation>
   </ThreadSize>
