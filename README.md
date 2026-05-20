@@ -1,5 +1,7 @@
 # Fusion 360 Thread Tool – XML Editor with Jupyter Notebook
 
+> **AI users:** See [Readme_For_AI_Usage.md](Readme_For_AI_Usage.md) for a step-by-step guide on how to add and tune threads with AI assistance.
+
 ⚠️ **Important Notes:**
 1. Fusion 360 can remain open, you just need to restart the Thread Tool inside it.
 2. The path / UID is configured automatically – see [After a Fusion Reinstall](#after-a-fusion-reinstall) below.

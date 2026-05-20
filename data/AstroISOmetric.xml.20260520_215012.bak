@@ -122,6 +122,60 @@
   <ThreadSize>
     <Size>28.85</Size>
     <Designation>
+      <ThreadDesignation>Okular-Hülse 28.85x0.8</ThreadDesignation>
+      <CTD>Okular-Hülse 28.85x0.8</CTD>
+      <Pitch>0.8</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>28.810</MajorDia>
+        <PitchDia>28.290</PitchDia>
+        <MinorDia>27.944</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>28.850</MajorDia>
+        <PitchDia>28.330</PitchDia>
+        <MinorDia>27.984</MinorDia>
+        <TapDrill>28.0</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>28.830</MajorDia>
+        <PitchDia>28.310</PitchDia>
+        <MinorDia>27.964</MinorDia>
+      </Thread>
+    </Designation>
+    <Designation>
+      <ThreadDesignation>Okular-Hülse 28.85x0.8 FDM</ThreadDesignation>
+      <CTD>Okular-Hülse 28.85x0.8 FDM</CTD>
+      <Pitch>0.8</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>28.410</MajorDia>
+        <PitchDia>27.890</PitchDia>
+        <MinorDia>27.544</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>29.250</MajorDia>
+        <PitchDia>28.730</PitchDia>
+        <MinorDia>28.384</MinorDia>
+        <TapDrill>28.4</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>28.430</MajorDia>
+        <PitchDia>27.910</PitchDia>
+        <MinorDia>27.564</MinorDia>
+      </Thread>
+    </Designation>
+    <Designation>
       <ThreadDesignation>Okular-Hülse 28.85x0.75</ThreadDesignation>
       <CTD>Okular-Hülse 28.85x0.75</CTD>
       <Pitch>0.75</Pitch>
@@ -173,6 +227,114 @@
         <MajorDia>28.430</MajorDia>
         <PitchDia>27.943</PitchDia>
         <MinorDia>27.618</MinorDia>
+      </Thread>
+    </Designation>
+    <Designation>
+      <ThreadDesignation>Okular-Hülse 28.85x0.65</ThreadDesignation>
+      <CTD>Okular-Hülse 28.85x0.65</CTD>
+      <Pitch>0.65</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>28.810</MajorDia>
+        <PitchDia>28.388</PitchDia>
+        <MinorDia>28.106</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>28.850</MajorDia>
+        <PitchDia>28.428</PitchDia>
+        <MinorDia>28.146</MinorDia>
+        <TapDrill>28.1</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>28.830</MajorDia>
+        <PitchDia>28.408</PitchDia>
+        <MinorDia>28.126</MinorDia>
+      </Thread>
+    </Designation>
+    <Designation>
+      <ThreadDesignation>Okular-Hülse 28.85x0.65 FDM</ThreadDesignation>
+      <CTD>Okular-Hülse 28.85x0.65 FDM</CTD>
+      <Pitch>0.65</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>28.410</MajorDia>
+        <PitchDia>27.988</PitchDia>
+        <MinorDia>27.706</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>29.250</MajorDia>
+        <PitchDia>28.828</PitchDia>
+        <MinorDia>28.546</MinorDia>
+        <TapDrill>28.5</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>28.430</MajorDia>
+        <PitchDia>28.008</PitchDia>
+        <MinorDia>27.726</MinorDia>
+      </Thread>
+    </Designation>
+    <Designation>
+      <ThreadDesignation>Okular-Hülse 28.85x0.7</ThreadDesignation>
+      <CTD>Okular-Hülse 28.85x0.7</CTD>
+      <Pitch>0.7</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>28.810</MajorDia>
+        <PitchDia>28.355</PitchDia>
+        <MinorDia>28.052</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>28.850</MajorDia>
+        <PitchDia>28.395</PitchDia>
+        <MinorDia>28.092</MinorDia>
+        <TapDrill>28.1</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>28.830</MajorDia>
+        <PitchDia>28.375</PitchDia>
+        <MinorDia>28.072</MinorDia>
+      </Thread>
+    </Designation>
+    <Designation>
+      <ThreadDesignation>Okular-Hülse 28.85x0.7 FDM</ThreadDesignation>
+      <CTD>Okular-Hülse 28.85x0.7 FDM</CTD>
+      <Pitch>0.7</Pitch>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>6g</Class>
+        <MajorDia>28.410</MajorDia>
+        <PitchDia>27.955</PitchDia>
+        <MinorDia>27.652</MinorDia>
+      </Thread>
+      <Thread>
+        <Gender>internal</Gender>
+        <Class>6H</Class>
+        <MajorDia>29.250</MajorDia>
+        <PitchDia>28.795</PitchDia>
+        <MinorDia>28.492</MinorDia>
+        <TapDrill>28.5</TapDrill>
+      </Thread>
+      <Thread>
+        <Gender>external</Gender>
+        <Class>4g6g</Class>
+        <MajorDia>28.430</MajorDia>
+        <PitchDia>27.975</PitchDia>
+        <MinorDia>27.672</MinorDia>
       </Thread>
     </Designation>
   </ThreadSize>

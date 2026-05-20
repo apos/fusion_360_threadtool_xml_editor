@@ -1,5 +1,7 @@
 # Fusion 360 Gewindetool – XML-Editor mit Jupyter Notebook
 
+> **KI-Nutzer:** Siehe [Readme_For_AI_Usage.md](Readme_For_AI_Usage.md) für eine Schritt-für-Schritt-Anleitung, wie man Gewinde mit KI-Unterstützung hinzufügt und anpasst.
+
 ⚠️ **Wichtige Hinweise:**
 1. Fusion kann an sein, man muss nur das Thread-Tool neu starten.
 2. Pfad und UID werden automatisch ermittelt – siehe [Nach einer Fusion-Neuinstallation](#nach-einer-fusion-neuinstallation) weiter unten.
